@@ -30,4 +30,12 @@ pub struct Record {
     pub mineral_1_EA_phi: Option<f64>,
     pub mineral_1_EA_theta: Option<f64>,
     pub mineral_1_EA_z: Option<f64>,
+    pub mineral_0_dis_dens_0: Option<f64>,
+    pub mineral_0_dis_dens_1: Option<f64>,
+    pub mineral_0_dis_dens_2: Option<f64>,
+    pub mineral_0_dis_dens_3: Option<f64>,
+    pub mineral_0_recryst_frac_0: Option<f64>,
+    pub mineral_0_recryst_frac_1: Option<f64>,
+    pub mineral_0_recryst_frac_2: Option<f64>,
+    pub mineral_0_recryst_frac_3: Option<f64>,
 }
