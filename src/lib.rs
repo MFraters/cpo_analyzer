@@ -187,7 +187,7 @@ fn get_time_steps(statistics_file: &String) -> Vec<f64> {
         }
 
         if line.find('#') != Some(0) {
-            if line.find("particle_CPO") != None {
+            if line.find("particles_cpo") != None {
                 data = data + &line + "\n";
             }
         }
@@ -283,7 +283,7 @@ pub fn process_configuration(config: Config) -> Result<(), Box<dyn std::error::E
 
     let base_dir = config.base_dir.clone();
 
-    // start the experiments
+    // start the experimentsc
     let experiment_dirs = config.experiment_dirs.clone();
     experiment_dirs.par_iter().for_each(|experiment_dir| {
         println!("Processing experiment {}", experiment_dir);

@@ -14,7 +14,7 @@ categories = ["science"]
 [dependencies]
 ndarray = { version = "0.13.0", features = ["rayon"] }
 palette = "0.5"
-plotters = "0.3.0"
+plotters = "0.3.5"
 csv = "1.1"
 toml = "0.5"
 serde = "1.0"

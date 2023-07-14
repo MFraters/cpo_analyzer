@@ -108,8 +108,8 @@ impl Default for PoleFiguresConfiguration {
     fn default() -> Self {
         PoleFiguresConfiguration {
             time_data_file: "statistics".to_string(),
-            particle_data_file_prefix: "particle_CPO/particles".to_string(),
-            grain_data_file_prefix: "particle_CPO/weighted_CPO".to_string(),
+            particle_data_file_prefix: "particles_cpo/particles".to_string(),
+            grain_data_file_prefix: "particles_cpo/weighted_CPO".to_string(),
             figure_output_dir: "CPO_figures/".to_string(),
             figure_output_prefix: "weighted_CPO".to_string(),
             color_scale: ColorGradient::Batlow,
