@@ -1,0 +1,14 @@
+base_dir = "/home/aspect_d-rex/shearbox/drexpp/"
+experiment_dirs = ["test1/"]
+compressed = false
+
+[pole_figures]
+    elastisity_header = false
+    small_figure = true
+    no_description_text = false
+    color_scale = "Batlow"
+    times = [0,1e5,2e5,3e5,4e5,5e5,6e5,7e5,8e5,9e5,1e6]
+    particle_ids = [0]
+    axes = ["AAxis","BAxis","CAxis"]
+    minerals = ["Olivine","Enstatite"]
+
